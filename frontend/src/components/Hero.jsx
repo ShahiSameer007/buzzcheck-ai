@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaArrowRight, FaImage } from "react-icons/fa";
+import { FaArrowRight} from "react-icons/fa";
 import Results from "./Results";
 import { analyzeNews } from "../services/api";
 import LoadingPanel from "./LoadingPanel";
@@ -97,11 +97,6 @@ function Hero() {
                 />
 
                 <div className="button-group">
-
-                    <button className="secondary-btn">
-                        <FaImage />
-                        Upload Screenshot
-                    </button>
 
                     <button
                         className="primary-btn"
